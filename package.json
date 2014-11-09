@@ -1,0 +1,36 @@
+{
+  "name": "procss-csscomb",
+  "version": "0.1.0",
+  "description": "Procss-plugin for csscomb usage",
+  "keywords": [
+    "css",
+    "csscomb",
+    "procss"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vindm/procss-csscomb"
+  },
+  "homepage": "https://github.com/vindm/procss-csscomb",
+  "scripts": {
+    "test": "jshint --config ./.jshintrc index.js && jscs index.js"
+  },
+  "author": {
+    "name": "Dmitriy Vinokurov",
+    "email": "vinokuroff.dm@gmail.com",
+    "url": "https://github.com/vindm"
+  },
+  "dependencies": {
+    "colors": "^1.0.3",
+    "csscomb": "^3.0.3"
+  },
+  "devDependencies": {
+    "jshint": "2.5.x",
+    "jscs": ">=1.6.x"
+  },
+  "readmeFilename": "README.md",
+  "engines": [
+    "node >= 0.6.0"
+  ]
+}
